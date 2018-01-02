@@ -14,7 +14,7 @@ elif [ $version -eq 8 ]; then
 else 
     version_msg="Raspian earlier than 8.0 (Wheezy)"
     webroot_dir="/var/www" 
-    php_package="php5-cgi" 
+    php_package="php7.0-cgi" 
 fi 
 
 # Outputs a RaspAP Install log line
